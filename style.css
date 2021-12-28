@@ -1,0 +1,44 @@
+#container{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: column;
+    height: 440 px;
+    width:340px;
+    padding : 4px;
+    gap:8px;
+}
+#screen{
+    height: 60px;
+    width:400px;
+    background-color: antiquewhite;
+    padding:8px;
+}
+#buttons{
+    display:flex;
+    width:400px;
+    flex-wrap:wrap;
+    gap:8px;
+}
+.one,.two,.three,.four,.five,.six,.seven,
+.eight,.nine,.zero,.plus,.minus,.equals,
+.multiply,.divide,.clear,.delete,.decimal{
+    background-color: red;
+    height : 70px;
+    width: 70px;
+}
+.equals{
+    background-color: orange;
+}
+.plus,.minus,.divide,.multiply{
+    background-color:lightblue;
+}
+.clear,.delete{
+    background-color: lightcoral;
+}
+.decimal{
+    background-color: lightgreen;
+}
